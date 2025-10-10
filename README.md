@@ -1,5 +1,27 @@
 # Laravel API with JWT Authentication & Role-Based Access
 
+After clone repository install dependencies
+
+```bash
+composer install
+```
+
+Set Up the Environment
+
+Copy the example .env file and generate the app key:
+
+```bash
+cp .env.example .env
+php artisan key:generate
+```
+
+Run Migrations (if needed)
+
+```bash
+php artisan migrate
+php artisan db:seed
+```
+
 > Complete REST API with JWT authentication, role-based access control, and repository pattern
 
 ## Setup JWT Authentication
